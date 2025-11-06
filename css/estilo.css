@@ -79,18 +79,26 @@ h2 {
   padding: 64px 80px;
   text-align: center;
 }
-
 #farmacia img {
   margin: 64px auto;
 }
-
 #farmacia .paragrafo {
   max-width: 950px;
   margin: auto;
   text-align: justify;
 }
-
 /* SEÇÃO DÚVIDA */
 .duvida {
   position: relative;
+}
+.duvida h3 {
+  border: 2px solid #ff725e;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 24px;
+}
+.duvida img {
+  position: absolute;
+  top: 32px;
+  right: 24px;
 }
